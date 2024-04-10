@@ -1,0 +1,117 @@
+/* Estilos básicos para o menu */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header img {
+  max-width: 5%;
+  margin-right: 1500px;
+  border-radius: 9%;
+}
+
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 5px; /* Reduzindo o espaçamento interno */
+  margin: 0.1% 0; /* Reduzindo as margens superior e inferior */
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Estilos para o texto "OSGAMES" */
+.osgames-container {
+  display: inline-block;
+  margin: 3px; /* Ajuste das margens do contêiner */
+}
+
+.osgames-container:hover h1 {
+  cursor: not-allowed; /* cursor bloqueado ao passar por cima */
+  color: #000; /* cor do texto quando o brilho estiver ativo */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), /* sombra */
+              0 0 5px #fff, /* brilho */
+              0 0 10px #fff, /* brilho */
+              0 0 15px #fff, /* brilho */
+              0 0 20px #fff, /* brilho */
+              0 0 35px #fff, /* brilho */
+              0 0 40px #fff, /* brilho */
+              0 0 50px #fff, /* brilho */
+              0 0 75px #fff; /* brilho */
+  transition: text-shadow 0.5s ease, color 0.5s ease; /* transição de 0.5 segundos */
+}
+
+/* Estilos para a barra de pesquisa */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Espaçamento superior */
+}
+
+.search-box input[type="text"] {
+  width: 300px; /* Largura da caixa de pesquisa */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda */
+  border-radius: 5px; /* Borda arredondada */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo para o botão */
+main button {
+  margin-top: 10px; /* Adiciona uma margem superior para separá-lo da imagem */
+  padding: 10px 20px; /* Adiciona preenchimento ao botão */
+  font-size: 16px; /* Tamanho da fonte */
+  background-color: #007bff; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remove a borda */
+  border-radius: 9px; /* Borda arredondada */
+  cursor: pointer; /* Altera o cursor ao passar por cima */
+  margin-left: 15px;
+}
+
+main .button2 a {
+  margin-top: 10px; /* Adiciona uma margem superior para separá-lo da imagem */
+  padding: 10px 20px; /* Adiciona preenchimento ao botão */
+  font-size: 16px; /* Tamanho da fonte */
+  background-color: #007bff; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remove a borda */
+  border-radius: 9px; /* Borda arredondada */
+  cursor: pointer; /* Altera o cursor ao passar por cima */
+  margin-left: 15px; /* Mantendo a mesma margem do primeiro botão */
+}
+
+main .texto-de-apresentação {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1rem;
+  margin-left: 600px;
+  margin-right: 200px;
+  margin-top: 250px;
+  margin-bottom: 220px;
+  width: 700px;
+  cursor: pointer;
+}
